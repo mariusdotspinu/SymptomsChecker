@@ -1,3 +1,3 @@
 # SymptomsChecker
 
-BSc Project, using Android Sdk and Python.
+BSc Project, using Android SDK and Python.
