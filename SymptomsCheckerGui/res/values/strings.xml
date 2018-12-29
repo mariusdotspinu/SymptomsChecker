@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SymptomsChecker</string>
+    <string name="suggestion_clicked_text">%1$s " " %2$s</string>
+    <string name="predict_text">Predict</string>
+    <string name="no_results_image_text">No results Image</string>
+    <string name="no_submission_image_text">No submissions found</string>
+    <string name="no_submission_text">You currently have no submissions</string>
+    <string name="no_results_text">Please tap \'Predict\' to get your diagnosis</string>
+    <string name="how_are_you_feeling_text">How are you feeling ?</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="submit_text">Submit</string>
+    <string name="add_text">Add</string>
+    <string name="enter_symptoms_text">Enter symptom(s) :</string>
+    <string name="symptoms_text">Symptoms :</string>
+    <string name="disease_name_text">Disease Name :</string>
+    <string name="disease_text">Disease :</string>
+    <string name="submissions">View Submissions</string>
+</resources>

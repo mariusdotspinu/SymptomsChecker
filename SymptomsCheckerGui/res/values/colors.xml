@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00AA8D</color>
+    <color name="colorPrimaryDark">#008975</color>
+    <color name="colorAccent">#00BF9A</color>
+    <color name="colorDiseaseSummary">#000000</color>
+    <color name="colorDiseaseDetails">#530d7b</color>
+    <color name="colorSuggestion">#4d0c54</color>
+    <color name="colorDivider">#000000</color>
+    <color name="colorChanceOk">#16bd3a</color>
+    <color name="colorChanceRisk">#b40b0b</color>
+    <color name="splashColor">#FFFFFf</color>
+    <color name="splashText">#e65c00</color>
+    <color name="fab">#8bd781</color>
+    <color name="fabRipple">#66ff99</color>
+    <color name="suggestion_container_color">#13bcff</color>
+    <color name="submission_layout_color">#e4dede</color>
+</resources>

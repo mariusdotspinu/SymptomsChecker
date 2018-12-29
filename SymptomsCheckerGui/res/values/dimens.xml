@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonHeight">50dp</dimen>
+    <dimen name="commonMarginTop">5dp</dimen>
+    <dimen name="commonMarginLeft">5dp</dimen>
+    <dimen name="commonMarginRight">5dp</dimen>
+</resources>

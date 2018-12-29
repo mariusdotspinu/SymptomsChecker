@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@color/splashColor"
+    android:padding="15dp">
+
+
+        <TextView
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/disease_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disease:"
+            android:textColor="@color/colorDiseaseDetails"
+            android:textSize="30sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/thumbnail"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_submission_thumbnail"
+        app:layout_constraintRight_toLeftOf="@id/disease_header"
+        app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/disease_name"
+            android:textAlignment="textEnd"
+            android:layout_gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/suggestion_container_color"
+            android:textSize="25sp"
+            app:layout_constraintTop_toBottomOf="@id/disease_header" />
+
+        <TextView
+            android:id="@+id/disease_symptoms_header"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Symptoms:"
+            android:textColor="@color/splashText"
+            android:textSize="30sp"
+            app:layout_constraintTop_toBottomOf="@+id/disease_name" />
+
+        <TextView
+            android:id="@+id/disease_symptoms"
+            android:textAlignment="textEnd"
+            android:layout_gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/colorChanceRisk"
+            app:layout_constraintTop_toBottomOf="@+id/disease_symptoms_header" />
+</android.support.constraint.ConstraintLayout>
