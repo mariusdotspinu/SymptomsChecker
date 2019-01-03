@@ -9,6 +9,14 @@ The prediction was made using 3 classifiers from [scikit-learn](https://scikit-l
 
 
 ### Demo - Initializing remote local server
-
+![](demo_local_serv.gif)
 
 ### Demo - App
+![](demo_app.gif)
+
+## Credits
+
+Images and icons provided by : 
+
+* [SmashIcons](https://www.flaticon.com/packs/medical-asserts)
+* [IconPond](https://www.flaticon.com/packs/medical-33)
